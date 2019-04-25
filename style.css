@@ -1,0 +1,29 @@
+.status-approve input[type="radio"].approveradio {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 25px;
+    height: 25px;
+    background: url(images/success-un-checked.png) no-repeat;    
+    background-size: 100% 100%; 
+}
+.status-approve input[type="radio"]:checked.approveradio{
+    background: url(images/success-checked.png) no-repeat;
+    background-size: 100% 100%;
+    outline: 0;
+}
+.status-approve input[type="radio"].rejectradio {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 25px;
+    height: 25px;
+    background: url(images/error-un-checked.png) no-repeat;    
+    background-size: 100% 100%; 
+}
+.status-approve input[type="radio"]:checked.rejectradio{
+    background: url(images/error-checked.png) no-repeat;
+    background-size: 100% 100%;
+    outline: 0;
+}
+.status-approve .form-check-inline:hover label, .status-approve .form-check-inline:hover input{
+    cursor: pointer;
+}
